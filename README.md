@@ -1,11 +1,11 @@
 ### Todo list to make this Production ready ###
 * Add webpack for tree shaking
 * secret store / parameter store to handle deployment specific env variables
-* hook up CI/CD to run tests
+* hook up CI/CD to run jest tests
+* setup real time error tracking tools such as sentry and integrate with slack ops channel
+* setup a CDN
 * ARIA attributes to improve accessibility
-* setup with ECS and load balancer
-* cloudfront
-* cache results from airtable
+* could results from airtable be cached depending on how often the data changes?
 
 # Getting Started with Create React App
 
