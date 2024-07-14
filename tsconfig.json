@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "lib": [
+            "dom",
+            "es2017"
+        ],
+        "jsx": "react",
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

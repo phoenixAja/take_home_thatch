@@ -1,3 +1,12 @@
+### Todo list to make this Production ready ###
+* Add webpack for tree shaking
+* secret store / parameter store to handle deployment specific env variables
+* hook up CI/CD to run tests
+* ARIA attributes to improve accessibility
+* setup with ECS and load balancer
+* cloudfront
+* cache results from airtable
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -16,8 +25,7 @@ You may also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the jest test runner
 
 ### `npm run build`
 
@@ -68,3 +76,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
