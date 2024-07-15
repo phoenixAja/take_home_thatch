@@ -46,10 +46,6 @@ export function Table() {
             <TableMUI sx={{ minWidth: 650 }} aria-label="simple table">
                 <TableHead>
                     <TableRow>
-                        <TableCell>Name</TableCell>
-                        <TableCell align="left">dob</TableCell>
-                        <TableCell align="left">deductible</TableCell>
-                        <TableCell align="left">plan Type</TableCell>
                         <TableCell align="left">HSA Eligible</TableCell>
                         <TableCell align="left">HSA max contribution</TableCell>
                     </TableRow>
@@ -60,12 +56,6 @@ export function Table() {
                             key={row.id}
                             sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                         >
-                            <TableCell component="th" scope="row">
-                                {row.fields.name}
-                            </TableCell>
-                            <TableCell align="left">{row.fields.dob.toLocaleDateString()}</TableCell>
-                            <TableCell align="left">{row.fields.deductible}</TableCell>
-                            <TableCell align="left">{row.fields.planType}</TableCell>
                             <TableCell align="left">{booleanToYesNo(row.HSAEligible)}</TableCell>
                             <TableCell align="left">{row.HSAMaxContribution}</TableCell>
                         </TableRow>
