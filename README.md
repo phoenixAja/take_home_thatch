@@ -1,21 +1,23 @@
 ### Todo list to make this Production ready ###
-* Add webpack for tree shaking
-* Update public/ (some places still have the defaults from create react app)
-* create a build to minify assets and deploy to server.
-* hook up CI/CD to run jest tests on PRs, tests must pass before merging to main
-* ARIA attributes to improve accessibility
-* could results from airtable be cached depending on how often the data changes? Do we need to worry about rate limiting? Add support for this if so.
 
-* Have code properly reviewed
-* create a dockerfile to containerize application and make it easy to deploy
-* setup AWS ECS/ ECR for deployment
-* configure DNS so that we have an accessible address for users.
-* setup HTTPS on deployed server for secure connections.
-* add a CSP to prevent XSS attacks
-* setup a CDN for distributed, quick access to bundle.
-* secret store / parameter store to handle deployment specific env variables
-* setup real time error tracking tools such as sentry and integrate with slack ops channel
-
+* Code changes:
+  * Have code properly reviewed
+  * Add webpack for tree shaking
+  * Update `public/` (some places still have the defaults from create react app)
+  * create a build to minify assets and deploy to server.
+  * hook up CI/CD to run jest tests on PRs and automatic deploys on merge to main
+  * ARIA attributes to improve accessibility
+  * could results from airtable be cached depending on how often the data changes? Do we need to worry about rate limiting? Add support for this if so.
+    
+* Infra needs for deployment
+  * create a dockerfile to containerize application and make it easy to deploy
+  * setup AWS ECS/ ECR for deployment
+  * configure DNS so that we have an accessible address for users.
+  * setup HTTPS on deployed server for secure connections.
+  * add a CSP to prevent XSS attacks
+  * setup a CDN for distributed, quick access to bundle.
+  * secret store / parameter store to handle deployment specific env variables
+  * setup real time error tracking tools such as sentry and integrate with slack ops channel
 
 # Getting Started with Create React App
 
