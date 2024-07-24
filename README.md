@@ -2,7 +2,7 @@
 
 * Code changes:
   * Have code properly reviewed
-  * Add webpack for tree shaking
+  * Add webpack for bundling and tree shaking
   * Update `public/` (some places still have the defaults from create react app)
   * create a build to minify assets and deploy to server.
   * hook up CI/CD to run jest tests on PRs and automatic deploys on merge to main
